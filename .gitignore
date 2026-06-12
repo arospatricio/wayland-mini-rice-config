@@ -1,0 +1,8 @@
+*
+!.gitignore
+
+!hypr/
+!hypr/**
+
+!waybar/
+!waybar/**
