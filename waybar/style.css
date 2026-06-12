@@ -64,29 +64,28 @@ window#waybar {
   color: #FF0000;
   padding-top: 0;
 }
-#pulseaudio-slider {
-    min-height: 0;
-    padding: 0;
-    margin: 0;
+#pulseaudio-slider slider {
+    min-width: 8px;
+    min-height: 8px;
+    opacity: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: #5fd1fa;
 }
 
 #pulseaudio-slider trough {
     min-height: 4px;
-    margin-top: 0;
-    margin-bottom: 0;
+    min-width: 75px;
+    border-radius: 999px;
+    background: #424242;
 }
 
 #pulseaudio-slider highlight {
     min-height: 4px;
+    border-radius: 999px;
+    background: #5fd1fa;
 }
-
-#pulseaudio-slider slider {
-    min-height: 0;
-    min-width: 0;
-    opacity: 0;
-}
-
-
 
 
 #clock{
